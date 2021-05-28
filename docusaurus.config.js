@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Harry',
+  title: '해리의 공부방',
   tagline: '매일 조금씩이라도 앞으로 나아가자',
   url: 'https://minkukjo.github.io',
   baseUrl: '/study/',
@@ -24,6 +24,7 @@ module.exports = {
           label: 'Main'
         },
         { to: '/blog', label: 'About', position: 'left' },
+        { to: '/test', label: 'Test', position: 'left' },
         {
           href: 'https://github.com/minkukjo',
           label: 'GitHub',
@@ -79,7 +80,7 @@ module.exports = {
       //     ]
       //   }
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
+      copyright: `Copyright © ${new Date().getFullYear()} Harry's Study, Inc. Built with Docusaurus.`
     }
   },
   presets: [

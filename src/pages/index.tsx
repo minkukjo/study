@@ -6,7 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './index.module.css'
 import HomepageFeatures from '../components/HomepageFeatures'
 
-function HomepageHeader() {
+export function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
