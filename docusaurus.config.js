@@ -23,8 +23,8 @@ module.exports = {
           position: 'left',
           label: 'Main'
         },
-        { to: '/blog', label: 'About', position: 'left' },
-        { to: '/test', label: 'Test', position: 'left' },
+        { to: '/blog', label: 'B', position: 'left' },
+        { to: '/portfolio', label: 'Portfolio', position: 'left' },
         {
           href: 'https://github.com/minkukjo',
           label: 'GitHub',
