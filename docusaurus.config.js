@@ -1,29 +1,25 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: '해리의 공부방',
+  title: '도전하는 개발자 조민국',
   tagline: '매일 조금씩이라도 앞으로 나아가자',
   url: 'https://minkukjo.github.io',
   baseUrl: '/study/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   organizationName: 'minkukjo', // Usually your GitHub org/user name.
   projectName: 'study', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Harry',
-      logo: {
-        alt: 'What is Logo?',
-        src: 'img/logo.svg'
-      },
+      title: 'Home',
       items: [
         {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Main'
+          label: 'Docs'
         },
-        { to: '/blog', label: 'B', position: 'left' },
+        { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/portfolio', label: 'Portfolio', position: 'left' },
         {
           href: 'https://github.com/minkukjo',
@@ -36,6 +32,9 @@ module.exports = {
           position: 'right'
         }
       ]
+    },
+    prism: {
+      additionalLanguages: ['java']
     },
     footer: {
       style: 'dark',
@@ -89,13 +88,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/minkukjo/study'
+          editUrl: 'https://github.com/minkukjo/study/edit/master/',
+          showLastUpdateTime: true
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/'
-        // },
+        blog: {
+          showReadingTime: true,
+          editUrl: 'https://github.com/minkukjo/study/edit/master/'
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
         }
