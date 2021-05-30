@@ -9,9 +9,9 @@ title: 03. 모든 객체의 공통 메서드
 
 > 이번 장에서는 final아 아닌 메서드들을 언제, 어떻게 재정의를 해야하는지에 대해서 살펴보자.
 
-## item 10
+## eqauls는 일반 규약을 지켜 재정의하라
 
-### eqauls는 일반 규약을 지켜 재정의하라
+> item 10
 
 결론부터 이야기하자면, equals 메소드는 가급적 재정의하지 않는 편이 좋다.
 
@@ -35,9 +35,9 @@ title: 03. 모든 객체의 공통 메서드
 
 `equals`를 재정의하면서 주의해야할 또 다른 점은 `hashCode` 메소드도 반드시 재정의를 해주어야한다는 점인데, 이는 다음 아이템에서 소개할 예정이다.
 
-## item 11
+## equals를 재정의하려거든 hashCode도 재정의하라
 
-### equals를 재정의하려거든 hashCode도 재정의하라
+> item 11
 
 **equals를 재정의한 클래스라면 모두 hashCode 또한 재정의해야 한다.**
 
@@ -48,9 +48,9 @@ title: 03. 모든 객체의 공통 메서드
 
 이 역시도 `lombok` 라이브러리를 사용하거나 Kotlin의 `data` 클래스를 사용하면 손쉽게 `Equals`와 `HashCode` 메서드를 알아서 재정의해준다.
 
-## item 12
+## toString을 항상 재정의하라
 
-### toString을 항상 재정의하라
+> item 12
 
 자바에서 프레임워크를 쓰다보면 종종 `toString()` 메소드로 인해 고통받는 일이 생긴다.
 
@@ -74,9 +74,9 @@ System.out.println(phonNumber + "에 연결할 수 없습니다.");
 
 즉, toString을 사용한다면 **가급적 해당 객체가 갖고 있는 모든 정보들을 노출시켜주는 편이 좋다.**
 
-## item 13
+## clone 재정의는 주의해서 진행하라
 
-### clone 재정의는 주의해서 진행하라
+> item 13
 
 `Clonable` 인터페이스는 복제가능한 클래스임을 명시하는 인터페이스임에도, 그 목적을 이루지 못했다.
 
@@ -155,9 +155,9 @@ public static Yum newInstance(Yum yum) { ... };
 
 다만, 배열만큼은 `clone` 메서드를 사용하는 것이 예외적으로 가장 깔끔한 방법이라고 한다.
 
-## item 14
+## Comparable을 구현할지 고려하라
 
-### Comparable을 구현할지 고려하라
+> item 14
 
 이번 장의 마지막에서는 `Comparable` 인터페이스의 유일한 메서드인 `compareTo`에 대해서 알아보자.
 
