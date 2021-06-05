@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>도전하는 개발자 조민국 Blog</title>
+        <title>해리의 스터디 저장소 Blog</title>
         <link>https://minkukjo.github.io/blog</link>
-        <description>도전하는 개발자 조민국 Blog</description>
+        <description>해리의 스터디 저장소 Blog</description>
         <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
