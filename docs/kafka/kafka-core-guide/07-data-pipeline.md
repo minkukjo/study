@@ -117,13 +117,13 @@ ES와 Logstash는 ELK 스택이라고도 불리며 환상의 짝꿍으로 불리
 
 - 카프카의 데이터를 일거엇 외부 시스템에 쓰는데 사용하는 컴포넌트 클래스가 **커넥터**
 
-<img width="652" alt="스크린샷 2021-06-05 오후 9 19 46" src="https://user-images.githubusercontent.com/43809168/120891464-c3803580-c643-11eb-9770-d48bea81d4e9.png">
+<img width="652" alt="스크린샷 2021-06-05 오후 9 19 46" src="https://user-images.githubusercontent.com/43809168/120891464-c3803580-c643-11eb-9770-d48bea81d4e9.png"/>
 
 ## 카프카 커넥트
 
 - 카프카 커넥트는 아파치 카프카의 일부로 포함되며 카프카와 다른 데이터 저장소간의 데이터 이동을 위해 확장성과 신뢰성 있는 방법을 제공한다.
 
-<img width="888" alt="스크린샷 2021-06-05 오후 8 24 39" src="https://user-images.githubusercontent.com/43809168/120890202-0e964a80-c63c-11eb-9362-48db79845ca6.png">
+<img width="888" alt="스크린샷 2021-06-05 오후 8 24 39" src="https://user-images.githubusercontent.com/43809168/120890202-0e964a80-c63c-11eb-9362-48db79845ca6.png"/>
 
 - 카프카 커넥터는 **Source** 커넥터와 **Sink** 커넥터 두 종류로 나눠진다.
 
@@ -133,7 +133,7 @@ ES와 Logstash는 ELK 스택이라고도 불리며 환상의 짝꿍으로 불리
 
 ## 커넥트의 내부구조
 
-<img width="813" alt="스크린샷 2021-06-05 오후 8 31 00" src="https://user-images.githubusercontent.com/43809168/120890329-f1ae4700-c63c-11eb-9e9f-da549304ef28.png">
+<img width="813" alt="스크린샷 2021-06-05 오후 8 31 00" src="https://user-images.githubusercontent.com/43809168/120890329-f1ae4700-c63c-11eb-9e9f-da549304ef28.png"/>
 
 커넥트는 미리 템플릿이 구현되어있고 그 템플릿의 설정값을 기준으로 인스턴스를 생성합니다.
 
