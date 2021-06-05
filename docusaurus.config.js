@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: '도전하는 개발자 조민국',
+  title: '해리의 스터디 저장소',
   tagline: '매일 조금씩이라도 앞으로 나아가자',
   url: 'https://minkukjo.github.io',
   baseUrl: '/study/',
@@ -10,6 +10,9 @@ module.exports = {
   organizationName: 'minkukjo', // Usually your GitHub org/user name.
   projectName: 'study', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark'
+    },
     navbar: {
       title: 'Home',
       items: [
@@ -38,47 +41,6 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      // links: [
-      //   {
-      //     title: 'Docs',
-      //     items: [
-      //       {
-      //         label: 'Tutorial',
-      //         to: '/docs/intro'
-      //       }
-      //     ]
-      //   },
-      //   {
-      //     title: 'Community',
-      //     items: [
-      //       {
-      //         label: 'Stack Overflow',
-      //         href: 'https://stackoverflow.com/questions/tagged/docusaurus'
-      //       },
-      //       {
-      //         label: 'Discord',
-      //         href: 'https://discordapp.com/invite/docusaurus'
-      //       },
-      //       {
-      //         label: 'Twitter',
-      //         href: 'https://twitter.com/docusaurus'
-      //       }
-      //     ]
-      //   },
-      //   {
-      //     title: 'More',
-      //     items: [
-      //       {
-      //         label: 'Blog',
-      //         to: '/blog'
-      //       },
-      //       {
-      //         label: 'GitHub',
-      //         href: 'https://github.com/facebook/docusaurus'
-      //       }
-      //     ]
-      //   }
-      // ],
       copyright: `Copyright © ${new Date().getFullYear()} Harry's Study, Inc. Built with Docusaurus.`
     }
   },

@@ -4,19 +4,27 @@ import styles from './HomepageFeatures.module.css'
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
-    description: <>화면 개선해라~~~</>
+    title: 'Kakao i 계정 개발',
+    Svg: require('../../static/img/iam_logo.svg').default,
+    description: (
+      <>
+        B2B, B2C를 아우르는 통합형 계정 서비스<br></br> Kakao i 계정 개발
+      </>
+    )
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
-    description: <>화면 개선해라~~~</>
+    title: '도전하는 개발자',
+    Svg: require('../../static/img/developer_logo.svg').default,
+    description: <>매일 매일 새로운 것들에 도전하고 노력하는 개발자</>
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    description: <>화면 개선해라~~~</>
+    title: 'CKA 자격증 취득',
+    Svg: require('../../static/img/cka_logo_fixed.svg').default,
+    description: (
+      <>
+        공인 쿠버네티스 자격증<br></br>CKA 자격증 취득
+      </>
+    )
   }
 ]
 

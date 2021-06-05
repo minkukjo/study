@@ -16,19 +16,25 @@ var clsx_1 = require("clsx");
 var HomepageFeatures_module_css_1 = require("./HomepageFeatures.module.css");
 var FeatureList = [
     {
-        title: 'Easy to Use',
-        Svg: require('../../static/img/undraw_docusaurus_mountain.svg')["default"],
-        description: react_1["default"].createElement(react_1["default"].Fragment, null, "\uD654\uBA74 \uAC1C\uC120\uD574\uB77C~~~")
+        title: 'Kakao i 계정 개발',
+        Svg: require('../../static/img/iam_logo.svg')["default"],
+        description: (react_1["default"].createElement(react_1["default"].Fragment, null,
+            "B2B, B2C\uB97C \uC544\uC6B0\uB974\uB294 \uD1B5\uD569\uD615 \uACC4\uC815 \uC11C\uBE44\uC2A4",
+            react_1["default"].createElement("br", null),
+            " Kakao i \uACC4\uC815 \uAC1C\uBC1C"))
     },
     {
-        title: 'Focus on What Matters',
-        Svg: require('../../static/img/undraw_docusaurus_tree.svg')["default"],
-        description: react_1["default"].createElement(react_1["default"].Fragment, null, "\uD654\uBA74 \uAC1C\uC120\uD574\uB77C~~~")
+        title: '도전하는 개발자',
+        Svg: require('../../static/img/developer_logo.svg')["default"],
+        description: react_1["default"].createElement(react_1["default"].Fragment, null, "\uB9E4\uC77C \uB9E4\uC77C \uC0C8\uB85C\uC6B4 \uAC83\uB4E4\uC5D0 \uB3C4\uC804\uD558\uACE0 \uB178\uB825\uD558\uB294 \uAC1C\uBC1C\uC790")
     },
     {
-        title: 'Powered by React',
-        Svg: require('../../static/img/undraw_docusaurus_react.svg')["default"],
-        description: react_1["default"].createElement(react_1["default"].Fragment, null, "\uD654\uBA74 \uAC1C\uC120\uD574\uB77C~~~")
+        title: 'CKA 자격증 취득',
+        Svg: require('../../static/img/cka_logo_fixed.svg')["default"],
+        description: (react_1["default"].createElement(react_1["default"].Fragment, null,
+            "\uACF5\uC778 \uCFE0\uBC84\uB124\uD2F0\uC2A4 \uC790\uACA9\uC99D",
+            react_1["default"].createElement("br", null),
+            "CKA \uC790\uACA9\uC99D \uCDE8\uB4DD"))
     }
 ];
 function Feature(_a) {
