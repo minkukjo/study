@@ -10,6 +10,12 @@ module.exports = {
   organizationName: 'minkukjo', // Usually your GitHub org/user name.
   projectName: 'study', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: 'bd35556da6870210532a574a1258884a',
+      indexName: 'harry',
+      appId: 'R6WS6DHCQH'
+      // contextualSearch: true
+    },
     colorMode: {
       defaultMode: 'dark'
     },
