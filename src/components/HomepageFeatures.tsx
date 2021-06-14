@@ -18,7 +18,7 @@ const FeatureList = [
     description: <>매일 매일 새로운 것들에 도전하고 노력하는 개발자</>
   },
   {
-    title: 'CKA 자격증 취득',
+    title: 'CKA',
     Svg: require('../../static/img/cka_logo_fixed.svg').default,
     description: (
       <>
