@@ -10,7 +10,7 @@ const handleScrollDown = () => {
   })
 }
 
-const Portfolio = () => {
+export function Portfolio() {
   useEffect(() => {
     AOS.init()
   }, [])
