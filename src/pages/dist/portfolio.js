@@ -12,7 +12,7 @@ var handleScrollDown = function () {
 };
 var Portfolio = function () {
     react_1.useEffect(function () {
-        aos_1["default"].init({});
+        aos_1["default"].init();
     }, []);
     return (react_1["default"].createElement(Layout_1["default"], { title: "Hello" },
         react_1["default"].createElement("h1", { className: "hero__logo", "data-aos": "zoom-in" }, "Developer"),

@@ -12,7 +12,7 @@ const handleScrollDown = () => {
 
 const Portfolio = () => {
   useEffect(() => {
-    AOS.init({})
+    AOS.init()
   }, [])
 
   return (
