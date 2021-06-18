@@ -1,1 +1,0 @@
-(self.webpackChunkstudy=self.webpackChunkstudy||[]).push([[3236],{6353:function(t){"use strict";t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\ube14\ub85c\uadf8 \uc624\ud508!","permalink":"/study/blog/blog"}]}')}}]);
