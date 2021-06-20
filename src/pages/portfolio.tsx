@@ -42,9 +42,22 @@ export function Portfolio() {
           margin: '50px'
         }}
       >
-        <div className="item item--left" data-aos="fade-up"></div>
-        <div className="item item--right" data-aos="fade-left"></div>
-        <div className="item item--left" data-aos="fade-right"></div>
+        <div className="item item--left" data-aos="fade-up">
+          <div className="item--title">Samsung Electronics Intern</div>
+          <div className="item--content">2019.06.24 ~ 2019.08.09</div>
+          <div className="item--content">Android Framework Part</div>
+          <img src="../../static/img/samsung.png"></img>
+        </div>
+        <div className="item item--right" data-aos="fade-left">
+          <div className="item--title">Naver Intern</div>
+          <div className="item--content">2019.09.09 ~ 2019.11.08</div>
+          <div className="item--content">Naver Reservation Platform</div>
+        </div>
+        <div className="item item--left" data-aos="fade-right">
+          <div className="item--title">Kakao Enterprise Intern</div>
+          <div className="item--content">2020.03.02 ~ 2020.06.01</div>
+          <div className="item--content">AI Service Platform</div>
+        </div>
         <div className="item item--right" data-aos="zoom-in"></div>
         <div className="item item--left" data-aos="zoom-in-up"></div>
         <div className="item item--right" data-aos="zoom-out"></div>

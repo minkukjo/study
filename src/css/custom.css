@@ -28,7 +28,7 @@
 .item {
   width: 40%;
   clear: both;
-  height: 300px;
+  height: 400px;
   background: rgb(72, 77, 91);
   border-radius: 2px;
   margin: 12vh 0;
@@ -56,6 +56,27 @@
 }
 .item--wider code {
   padding-top: 60px;
+}
+
+@media screen and (min-width: 420px) {
+  .item {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .item {
+    width: 40%;
+  }
+}
+
+.item--title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.item--content {
+  margin-left: 20px;
 }
 
 .hero__scroll {
