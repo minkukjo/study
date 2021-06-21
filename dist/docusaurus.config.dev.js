@@ -35,8 +35,8 @@ module.exports = {
         label: 'Blog',
         position: 'left'
       }, {
-        to: '/portfolio',
-        label: 'Portfolio',
+        to: '/about',
+        label: 'About',
         position: 'left'
       }, {
         href: 'https://github.com/minkukjo',

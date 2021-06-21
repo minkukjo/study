@@ -29,7 +29,7 @@ module.exports = {
           label: 'Docs'
         },
         { to: '/blog', label: 'Blog', position: 'left' },
-        { to: '/portfolio', label: 'Portfolio', position: 'left' },
+        { to: '/about', label: 'About', position: 'left' },
         {
           href: 'https://github.com/minkukjo',
           label: 'GitHub',
