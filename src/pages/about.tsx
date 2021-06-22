@@ -16,7 +16,7 @@ export function About() {
   }, [])
 
   return (
-    <Layout title="Hello">
+    <Layout title="About">
       <h1 className="hero__logo" data-aos="zoom-in">
         Developer
       </h1>
