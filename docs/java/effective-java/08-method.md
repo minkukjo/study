@@ -517,7 +517,3 @@ public List<Cheese> getCheese() {
 이펙티브 자바 Effective Java 3/E
 
 저자 : 조슈아 블로크
-
-```
-
-```
