@@ -1,5 +1,5 @@
 ---
-id: language-guide
+id: kotlin-jpa-guide
 title: Kotlin JPA 개발 가이드
 ---
 
