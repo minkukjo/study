@@ -1,5 +1,5 @@
 ---
-id: language-guide
+id: kotlin-language-guide
 title: 코틀린 언어 가이드
 ---
 

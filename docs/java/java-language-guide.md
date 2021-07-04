@@ -1,5 +1,5 @@
 ---
-id: language-guide
+id: java-language-guide
 title: 자바 언어 가이드
 ---
 

@@ -48,13 +48,13 @@ module.exports = {
             }
           ]
         },
-        'java/lanugage-guide'
+        'java/java-language-guide'
       ]
     },
     {
       type: 'category',
       label: 'Kotlin',
-      items: ['kotlin/lanugage-guide']
+      items: ['kotlin/kotlin-language-guide']
     },
     {
       type: 'category',
