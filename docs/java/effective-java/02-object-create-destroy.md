@@ -71,7 +71,7 @@ EnumSet 클래스는 생성자 없이 오직 정적 팩터리 메서드만 제�
 
 서비스 제공자 프레임워크는 3개의 핵심 컴포넌트로 이루어진다.
 
-**Service Interface**, **\*Provider Registration API**, **Service Access API**
+**Service Interface**, **Provider Registration API**, **Service Access API**
 
 클라이언트는 **Service Access API**를 사용할 때 원하는 구현체의 조건을 명시해줄 수 있다.
 

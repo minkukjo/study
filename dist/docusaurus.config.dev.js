@@ -2,7 +2,7 @@
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: '해리의 스터디 저장소',
+  title: '도전하는 개발자',
   tagline: '매일 조금씩이라도 앞으로 나아가자',
   url: 'https://minkukjo.github.io',
   baseUrl: '/study/',
