@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://minkukjo.github.io/blog</id>
-    <title>해리의 스터디 저장소 Blog</title>
+    <title>도전하는 개발자 Blog</title>
     <updated>2021-05-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://minkukjo.github.io/blog"/>
-    <subtitle>해리의 스터디 저장소 Blog</subtitle>
+    <subtitle>도전하는 개발자 Blog</subtitle>
     <icon>https://minkukjo.github.io/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[블로그 오픈!]]></title>
