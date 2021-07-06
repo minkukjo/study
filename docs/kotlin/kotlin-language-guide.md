@@ -103,3 +103,11 @@ val users = listOf(1,2,3,4) // GOOD!!!
 ```
 
 - 복수명의 변수명은 s로 사용합니다.
+
+## !!은 최소한으로 사용합니다.
+
+```kotlin
+val user : User? = User()
+user!!.name // BAD!!
+user!!.age // BAD!!
+```
