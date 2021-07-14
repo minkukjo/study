@@ -256,6 +256,8 @@ private void readObject(ObjectInputStream s) throws IOException, ClassNotFoundEx
 
 ## 인스턴스 수를 통제해야 한다면 readResolve 보다는 열거 타입을 사용하라
 
+> item 89
+
 - 싱글턴으로 개발된 클래스 역시 직렬화에 의해 두 개의 인스턴스가 공존할 수 있다.
 
 - 이를 방어하기 위해 **readResolve**를 사용할 수 있는데, 이 메소드는 readObject가 만들어낸 인스턴스를 다른 것으로 대체할 수 있는 메소드이다.
