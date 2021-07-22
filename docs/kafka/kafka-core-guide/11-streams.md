@@ -224,7 +224,7 @@ title: 11. 스트림 프로세싱
 
 ### 로컬 상태를 사용한 스트림 프로세싱
 
-<img width="1847" alt="스크린샷 2021-07-22 오전 1 00 10" src="https://user-images.githubusercontent.com/43809168/126521035-dc95f169-9800-4d18-880a-7e906bc67aec.png">
+<img width="1847" alt="스크린샷 2021-07-22 오전 1 00 10" src="https://user-images.githubusercontent.com/43809168/126521035-dc95f169-9800-4d18-880a-7e906bc67aec.png"/>
 
 - 카프카 스트림의 상태 정보를 로컬에 저장해놓고 사용할 수 있습니다.
 
