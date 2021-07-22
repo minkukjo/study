@@ -407,5 +407,3 @@ title: 11. 스트림 프로세싱
 <img width="458" alt="스크린샷 2021-04-28 오후 7 39 45" src="https://user-images.githubusercontent.com/43809168/116390936-86ad6b80-a859-11eb-91e8-fcfc31a896fe.png"/>
 
 카프카 핵심 가이드
-
-[토폴로지 이미지 출처](https://ooeunz.tistory.com/137)
