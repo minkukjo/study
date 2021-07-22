@@ -247,4 +247,4 @@ By 조영호
 
 카프카 핵심 가이드
 
-<https://always-kimkim.tistory.com/entry/kafka101-connect>
+[이미지 출처](https://always-kimkim.tistory.com/entry/kafka101-connect)

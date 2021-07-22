@@ -408,6 +408,4 @@ title: 11. 스트림 프로세싱
 
 카프카 핵심 가이드
 
-<https://always-kimkim.tistory.com/entry/kafka101-connect>
-
-<https://ooeunz.tistory.com/137>
+[토폴로지 이미지 출처](https://ooeunz.tistory.com/137)
