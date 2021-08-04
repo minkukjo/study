@@ -3,6 +3,8 @@ id: kotlin-jpa-guide
 title: Kotlin JPA 개발 가이드
 ---
 
+# JPA With Kotlin
+
 ## JPA With Kotlin Gradle.kt 설정
 
 ```kotlin
@@ -92,7 +94,7 @@ class UserStatusConverter : AttributeConverter<UserStatus, String> {
    - 그래서 상속성을 가져가기 위함과, 연관되어있는 다른 Entity가 있다면 지연로딩을 위해서라도 일반 `class`로 선언 후 `open` 키워드를 붙여주어야 합니다.
    - top-level 클래스이어야 하고 `enum` 이나 `interface`는 엔티티가 될 수 없습니다
    - final class는 사용하면 안됩니다.
-   - Entity는 반드시 public 혹은 protected의 no-arg 생성자를 가지고 있어야합니다. 추가적인 생성자를 가져도됩니다
+     - Entity는 반드시 public 혹은 protected의 no-arg 생성자를 가지고 있어야합니다. 추가적인 생성자를 가져도됩니다
 2. primary key를 가지는 변수를 선언하는 것을 뜻합니다
 3. @GeneratedValue 어노테이션은 해당 Id 값을 어떻게 자동으로 생성할지 전략을 선택할 수 있습니다.
 4. 연관관계 매핑시에 Lazy로딩 설정을 할 수 있습니다
@@ -185,7 +187,8 @@ interface UserRepository : JpaRepository<User, Long> {
 }
 ```
 
-Jpa에서 제공하는 메소드가 너무 길 시에 Query 어노테이션을 통해서 간결한 메소드를 쓰는것을 권장합니다
+- JPA의 메소드명이 34글자 초과되지 않도록 메소드 명 길이를 조절하도록 합니다.
+- Jpa에서 제공하는 메소드가 34글자 초과될 경우 Query 어노테이션을 통해서 간결한 메소드를 쓰는것을 권장합니다.
 
 ## Pageable
 
@@ -203,6 +206,19 @@ JPA 함수에 Pageable 타입의 파라미터 입력시, 페이징 정보가 들
 결과값으로 DB 결과 List 및 페이징 정보를 함께 전달 받습니다
 
 - JPA에서 결과값을 Entity로 기본으로 받으나 원하는 결과만 추출하고 싶을때는 VO을 사용할 수 있습니다.
+
+## Pageable 사용시 주의점
+
+```kotlin
+@Repository
+interface UserRepository : JpaRepository<User, Long> {
+
+    fun findByOrderById(pageable: Pageable, Integer totalEleme): Page<User>
+}
+```
+
+- JPA에서 페이징을 위해 기본적으로 count 쿼리를 날립니다.
+- 매번 Count SQL 쿼리가 실행되는 것은 비효율적이므로 전체 사이즈를 애플리케이션 레벨에서 미리 구해놓고 던지도록 합니다.
 
 # QueryDSL
 
@@ -314,3 +330,16 @@ class PaymentCustomRepositoryImpl : QuerydslCustomRepositorySupport(Payment::cla
 ```
 
 - 출처 : [https://github.com/cheese10yun/blog-sample/blob/master/query-dsl/src/main/kotlin/com/example/querydsl/repository/payment/PaymentRepository.kt](https://github.com/cheese10yun/blog-sample/blob/master/query-dsl/src/main/kotlin/com/example/querydsl/repository/payment/PaymentRepository.kt)
+
+## QuerydslCustomRepositorySupport의 사용 시점
+
+- Querydsl을 사용하여 복잡한 join 쿼리를 사용하거나, @Query 애노테이션을 사용하여 JPQL을 작성하는 경우, 또는 다이나믹 쿼리를 사용해야하는 경우 사용합니다.
+
+## N+1 문제를 해결하기 위한 fetch join 사용법
+
+```kotlin
+@Query("select a from Organization o join fetch o.users")
+List<Organization> findByJoinFetch();
+```
+
+- N+1 문제를 해결하기 위해 JPQL의 join fetch 기능을 사용할 수 있습니다.
