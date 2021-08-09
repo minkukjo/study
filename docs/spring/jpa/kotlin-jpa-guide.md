@@ -280,12 +280,12 @@ class QuerydslConfig(
 ) {
     @Bean
     fun jpaQueryFactory(): JPAQueryFactory {
-        return JPAQueryFactory(entityManager) // 1
+        return JPAQueryFactory(entityManager)
     }
 }
 ```
 
-- 1 : Repository에서 `JPAQueryFactory`를 주입받아 Querydsl을 사용할 수 있게 합니다.
+- Repository에서 `JPAQueryFactory`를 주입받아 Querydsl을 사용할 수 있게 합니다.
 
 ### QuerydslCustomRepositorySupport의 사용
 
