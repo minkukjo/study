@@ -185,4 +185,4 @@ spec:
 
 ## 한 줄 요약
 
-`Node-Affinity + Taints And Toleration`를 사용하면 특정 노드와 특정 파드가 서로 반드시 배치하고 배치되어지는 것을 보장할 수 있다.
+`Node-Affinity + Taints And Toleration`를 사용하면 특정 노드와 특정 파드가 서로 반드시 배치하고 배치되어지는 것을 보장할 수 있다!
