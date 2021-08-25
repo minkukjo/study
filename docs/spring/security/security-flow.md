@@ -423,20 +423,6 @@ public final class DefaultAuthorizationCodeTokenResponseClient
 
 - 나같은 경우 이러한 외부 호출하는 메소드의 경우 **call**, **request**와 같이 **"내가 다른 서버에 요청을 한다"**라는 의미로 메소드명을 지었는데, 스프링의 경우 그 행위가 결과적으로 **무엇**을 하기 위한 것인지에 대해서만 메소드명을 적어놓았던 점이 인상깊었다. (참고해야겠다.)
 
-## 추가로 알면 좋은 지식들
-
-<https://charsyam.wordpress.com/2018/05/11/%EC%9E%85-%EA%B0%9C%EB%B0%9C-spring-security-oauth%EC%9D%98-redistokenstore%EC%9D%98-%EC%82%AC%EC%9A%A9%EC%9D%80-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%97%90-%EC%A0%81%ED%95%A9%ED%95%98%EC%A7%80-%EC%95%8A/>
-
-위 글을 보면, 지금으로 부터 3년전, Spring Security의 RedisTokenStore에서 토큰 정보를 List에 저장하고 선형 탐색하는 경우 O(n)이 되어서 이슈가 있다고 나온다.
-
-즉, 유저가 많아져서 토큰이 많아지는 경우 O(n) 탐색이 되면서 유저의 토큰 유무를 조회하는데 상당한 시간이 걸리게 된다.
-
-<https://github.com/spring-projects/spring-security-oauth/blob/main/spring-security-oauth2/src/main/java/org/springframework/security/oauth2/provider/token/store/redis/RedisTokenStore.java>
-
-바뀐 코드에선 List가 아닌 Set 자료구조를 사용해서 O(1)로 개선한 것을 확인할 수 있었다.
-
-즉, 지금 버전의 RedisTokenStore는 Redis를 사용하여 AccessToken을 관리하는 것에 특별한 이슈가 없으므로 안심하고 사용해도 된다.
-
 ## 내부 탐험 소감
 
 - 깊고 깊은 Spring 내부 코드를 구경하는 것은 재밌었다.
