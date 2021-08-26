@@ -435,4 +435,4 @@ public final class DefaultAuthorizationCodeTokenResponseClient
 
 ## Reference
 
-<https://docs.spring.io/spring-security/site/docs/current/reference/html5/>
+[스프링 시큐리티 공식 문서](https://docs.spring.io/spring-security/site/docs/current/reference/html5/)
