@@ -1,5 +1,5 @@
 ---
-id: spring-security
+id: spring-security-flow
 title: Spring Security OAuth2 Login
 ---
 
