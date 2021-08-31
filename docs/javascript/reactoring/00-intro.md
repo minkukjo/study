@@ -5,7 +5,7 @@ title: 00. 스터디 시작
 
 ## 리팩토링 스터디 시작
 
-<img width="1685" alt="스크린샷 2021-08-31 오후 9 47 46" src="https://user-images.githubusercontent.com/43809168/131524216-0629c706-eecc-4048-9f84-6897bd947cc9.png">
+<img width="1685" alt="스크린샷 2021-08-31 오후 9 47 46" src="https://user-images.githubusercontent.com/43809168/131524216-0629c706-eecc-4048-9f84-6897bd947cc9.png"/>
 
 게더라는 플랫폼으로 온라인으로 만나 첫 OT를 진행했다.
 
@@ -15,11 +15,11 @@ title: 00. 스터디 시작
 
 지난 번에 진행했던 `Effective Java 스터디`를 주도했던 `대훈`이가 다시 한번 스터디를 열었다.
 
-<img width="1827" alt="스크린샷 2021-08-31 오후 10 11 44" src="https://user-images.githubusercontent.com/43809168/131527458-533afba3-5b43-49aa-8709-85075eb738b9.png">
+<img width="1827" alt="스크린샷 2021-08-31 오후 10 11 44" src="https://user-images.githubusercontent.com/43809168/131527458-533afba3-5b43-49aa-8709-85075eb738b9.png"/>
 
-<img width="1443" alt="스크린샷 2021-08-31 오후 10 25 46" src="https://user-images.githubusercontent.com/43809168/131527468-3db35a61-b711-4d8f-a572-c6e8889fcf82.png">
+<img width="1443" alt="스크린샷 2021-08-31 오후 10 25 46" src="https://user-images.githubusercontent.com/43809168/131527468-3db35a61-b711-4d8f-a572-c6e8889fcf82.png"/>
 
-<img width="1789" alt="스크린샷 2021-08-31 오후 10 29 39" src="https://user-images.githubusercontent.com/43809168/131527482-c5774fce-61e7-4219-bc6c-ce73a492582a.png">
+<img width="1789" alt="스크린샷 2021-08-31 오후 10 29 39" src="https://user-images.githubusercontent.com/43809168/131527482-c5774fce-61e7-4219-bc6c-ce73a492582a.png"/>
 
 스터디는 매주 화요일 밤 10시에 온라인으로 모여, 스터디를 진행하고 느낀 점을 공유하는 방식으로 진행하기로 하였다.
 
