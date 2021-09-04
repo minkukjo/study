@@ -49,7 +49,7 @@ module.exports = {
       }]
     },
     prism: {
-      additionalLanguages: ['java']
+      additionalLanguages: ['java', 'kotlin']
     },
     footer: {
       style: 'dark',
