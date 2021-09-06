@@ -506,7 +506,6 @@ fun renderPlainText(data: StatementData): String {
     var result = "청구 내역 (고객명: ${data.customer})\n"
 
     for (performance in data.performances) {
-        // 청구 내역을 출력한다.
         result += "${performance.play?.name}: ${usd(performance.amount)} ${performance.audience}석\n"
     }
     result += "총액: ${usd(data.totalAmount)}\n"
