@@ -1,6 +1,6 @@
 ---
-id: 01-first
-title: 01. 첫 번째 예시
+id: 02-principle
+title: 02. 리팩토링 원칙
 ---
 
 ## Reference
