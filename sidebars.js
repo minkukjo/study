@@ -73,15 +73,14 @@ module.exports = {
               dirName: 'java/effective-java'
             }
           ]
-        },
-        'java/java-language-guide'
+        }
       ]
     },
-    {
-      type: 'category',
-      label: 'Kotlin',
-      items: ['kotlin/kotlin-language-guide']
-    },
+    // {
+    //   type: 'category',
+    //   label: 'Kotlin',
+    //   items: ['kotlin/kotlin-language-guide']
+    // },
     {
       type: 'category',
       label: 'Kafka',
