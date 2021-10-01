@@ -15,6 +15,8 @@ title: 04. 테스트 구축하기
 
 - 리팩토링을 하고 싶다면 반드시 테스트 코드가 존재해야한다.
 
+## 테스트 샘플 코드
+
 ## Reference
 
 <img width="620" alt="스크린샷 2021-08-31 오후 10 29 39" src="https://user-images.githubusercontent.com/43809168/131528140-3f6f8492-1dee-4f94-b5b6-929136cd2686.jpeg"/>
