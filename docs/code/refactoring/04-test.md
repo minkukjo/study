@@ -17,6 +17,8 @@ title: 04. 테스트 구축하기
 
 ## 테스트 샘플 코드
 
+- [Github 저장소](https://github.com/minkukjo/refactoring)
+
 ## Reference
 
 <img width="620" alt="스크린샷 2021-08-31 오후 10 29 39" src="https://user-images.githubusercontent.com/43809168/131528140-3f6f8492-1dee-4f94-b5b6-929136cd2686.jpeg"/>
